@@ -3,7 +3,7 @@ import Navbar from '../components/navbar'
 import { Frown, Loader, Loader2, LoaderPinwheel, LucideLoader2, SearchCheck } from 'lucide-react';
 import ProductCard from '../components/product-card';
 
-const Contact = () => {
+const Products = () => {
 
   const [productList, setProductList] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -47,4 +47,4 @@ const Contact = () => {
   )
 }
 
-export default Contact
+export default Products

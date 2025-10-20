@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const ProductCard = ({product}) => {
     return (
@@ -31,9 +32,9 @@ const ProductCard = ({product}) => {
             </div>
 
             {/* CTA Button */}
-            <button className="mt-3 w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-md text-sm font-medium">
+            <Link to={`/product-details?id=${product.id}`} className="mt-3 px-2 w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-md text-sm font-medium">
                 View Product
-            </button>
+            </Link>
         </div>
     )
 }
