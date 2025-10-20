@@ -34,6 +34,7 @@ const Contact = () => {
       <div className='w-full text-center p-10 flex flex-wrap gap-2 justify-center items-center bg-slate-100'>
 
         {
+
           isLoading ? <span className='flex gap-1 justify-items-center items-center'><Loader2 className='animate-spin text-slate-500'/> Please wait...</span>
             :
             productList.length > 0 ? productList.map((element) =>
