@@ -8,3 +8,8 @@
 
 # Snippets/Boiler Plate
 * rafce 
+
+# git commit
+* git add .
+* git commit -m "reuploading"
+* git push origin master
